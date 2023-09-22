@@ -1,0 +1,19 @@
+{
+  "name": "03-bases-node",
+  "version": "0.0.0",
+  "description": "Curso de node desde cero",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js --base=777"
+  },
+  "author": "Brayan Vazquéz Ramírez",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.7.2"
+  }
+}
